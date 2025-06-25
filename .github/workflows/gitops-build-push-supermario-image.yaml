@@ -22,5 +22,5 @@ jobs:
  
       - name: Build and Push Docker Image
         run: |
-          docker build -t docker.io/raghuthesecurityexpert/supermariogitopsproject:${{ env.VERSION }} .
-          docker push docker.io/raghuthesecurityexpert/supermariogitopsproject:${{ env.VERSION }}
+          docker build -t docker.io/jdkdaddu/supermariogitopsproject:${{ env.VERSION }} .
+          docker push docker.io/jdkdaddu/supermariogitopsproject:${{ env.VERSION }}
