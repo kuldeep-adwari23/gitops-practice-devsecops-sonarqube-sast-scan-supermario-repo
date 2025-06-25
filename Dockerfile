@@ -1,5 +1,5 @@
 # use official Tomcat image as base image
-FROM tomact:9.0.14-jre8-alpine
+FROM tomcat:9.0.14-jre8-alpine
 
 LABEL maintainer="github.com/asecurityguru"
 
